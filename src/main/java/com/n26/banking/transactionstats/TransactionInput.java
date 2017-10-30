@@ -6,16 +6,16 @@ public class TransactionInput {
     private long timestamp;
 
 
-   // used by Framework
-    public TransactionInput(){
+    // used by Framework
+    public TransactionInput() {
 
     }
 
 
     // used by Test Case
-  public   TransactionInput(double amount, long timestamp){
-        this.amount=amount;
-       this.timestamp=timestamp;
+    public TransactionInput(double amount, long timestamp) {
+        this.amount = amount;
+        this.timestamp = timestamp;
     }
 
     public double getAmount() {

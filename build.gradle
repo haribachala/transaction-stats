@@ -24,7 +24,7 @@ repositories {
     mavenCentral()
 }
 
-configurations{
+configurations {
     compile.exclude module: "spring-boot-starter-tomcat"
 }
 
@@ -37,7 +37,7 @@ dependencies {
     runtime('org.springframework.boot:spring-boot-devtools')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
-jar{
-    baseName= 'transaction-stats'
-    version= '1.0'
+jar {
+    baseName = 'transaction-stats'
+    version = '1.0'
 }
