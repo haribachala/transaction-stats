@@ -1,0 +1,25 @@
+###############################
+# Spring boot Configuration #
+#############################
+spring:
+  application:
+    name: transaction-stats
+
+############################
+# Server Configuration  #
+############################
+Server:
+  port: 9080
+
+############################
+# logging Configuration #
+##########################
+
+logging:
+ level:
+  org.springframework: INFO
+  com.n26.banking.transactionstats: INFO
+
+  file: transaction-stats.log
+
+
