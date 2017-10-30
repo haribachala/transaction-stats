@@ -15,7 +15,7 @@ purpose of the project:
     
     How to build this project:
     ---------------------------
-    1. download latest Gradle version (or use Gradle wrapper available in the project)
+    1. download latest Gradle version (or use Gradle wrapper available in the project  eg: gradlew clean build)
     2. import this project into any IDE as Gradle project
     3. run 'gradle clean build'  in root directory 
     4. above command will download and run required artefacts from maven central repo.
@@ -39,7 +39,7 @@ purpose of the project:
     ------------------
               This application is exposed with 2 End-points
               
-              1. localhost:8080/transactions [POST]
+              1. localhost:8080/transactionService/transactions [POST]
               
               input:  Above Endpoints consumes JSON Body as input
               
@@ -53,7 +53,7 @@ purpose of the project:
                    amount - double 
                    timestamp  - Epoch Millis
     
-             2.  localhost:8080/statistics   [GET]
+             2.  localhost:8080/transactionStats/statistics   [GET]
              
              
                      This end-points will give aggregation of the transactions that happened last 60 seconds.
